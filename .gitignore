@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Environment files (do not commit secrets)
+.env
+**/.env
+backend/.env
+
+# SQLite DBs
+*.db
+hostel.db
+
+# Node
+node_modules/
+**/node_modules/
+dist/
+
+# VS Code
+.vscode/
